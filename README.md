@@ -33,7 +33,9 @@ This guide will walk you through the steps to deploy the `DePINIndexToken` contr
 
    Inside the `contracts` folder, create a new file named `DePINIndexToken.sol` and paste the contract code provided.
 
-4. **Create a Deployment Script:**
+4. **Update DePIN tokens ERC20 addresses**: inside the constructor before deploying.
+
+5. **Create a Deployment Script:**
 
    Inside the `scripts` folder, create a new file named `deploy.js`:
 
@@ -56,13 +58,13 @@ This guide will walk you through the steps to deploy the `DePINIndexToken` contr
      });
    ```
 
-5. **Compile the Contract:**
+6. **Compile the Contract:**
 
    ```bash
    npx hardhat compile
    ```
 
-6. **Deploy the Contract to a Network:**
+7. **Deploy the Contract to a Network:**
 
    - Configure the `hardhat.config.js` file with your network settings (e.g., Ropsten, Rinkeby, etc.).
    - Deploy to the selected network:
@@ -71,7 +73,7 @@ This guide will walk you through the steps to deploy the `DePINIndexToken` contr
    npx hardhat run scripts/deploy.js --network your_network
    ```
 
-7. **Verify Deployment:**
+8. **Verify Deployment:**
 
    Once deployed, note down the contract address from the output for further interaction.
 
@@ -85,11 +87,11 @@ This guide will walk you through the steps to deploy the `DePINIndexToken` contr
 
 2. **Create a New File:**
 
-   In the Remix file explorer, create a new file named `DePINIndexToken.sol` and paste the contract code.
+   In the Remix file explorer, create a new file named `DePINIndexToken.sol` and paste the contract code. Change the DePIN ERC20 contract addresses inside the constructor.
 
 3. **Compile the Contract:**
 
-   - Select the Solidity compiler version `0.8.26` or compatible.
+   - Select the Solidity compiler version `0.8.26`.
    - Click "Compile DePINIndexToken.sol".
 
 4. **Deploy the Contract:**
