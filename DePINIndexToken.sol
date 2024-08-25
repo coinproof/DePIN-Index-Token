@@ -169,7 +169,7 @@ contract DePINIndexToken is ERC20, Ownable, ReentrancyGuard {
         uint256 oldPrice,
         uint256 newPrice
     ) internal {
-        uint256 priceDelta = (newPrice * BASE) / oldPrice;
+        uint256 priceDelta = newPrice / oldPrice;
         uint256 weight = getTokenWeight(tokenID);
         uint256 rebaseRatio = (priceDelta * weight) / 100;
 
