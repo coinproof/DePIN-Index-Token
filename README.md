@@ -150,7 +150,7 @@ const depinIndexToken = await DePINIndexToken.attach(contractAddress);
    - **Example:**
 
    ```javascript
-   await depinIndexToken.updateTokenPrice(1, 3000); // Updates price for tokenID 1 to 3000
+   await depinIndexToken.updateTokenPrice(1, 3000); // Updates price for tokenID 1 to 3000, where 1 USDT = 3000 DePIN Token1
    ```
 
 #### **User Functions:**
