@@ -1,4 +1,4 @@
-Generated using ChatGPT and modifications made for future enhancements. This assignmnet sole aim to prove my understanding of the project that I could grab in 1 meeting with the tech lead Vetri and is not a representation of my skills and expertise. An index token with underlying DePIN tokens need more complex architecture and considerable time. This is only to highlight my understanding of solidity to create a PoC based on my understanding of the project. It is not to be considered the final product.
+Generated using ChatGPT and modifications made for future enhancements. This assignmnet sole aim to prove my understanding of the project that I could grab in 1 meeting with the tech lead Vetri and is not a representation of my skills and expertise. An index token with underlying DePIN tokens needs more complex architecture and considerable time. This is only to highlight my understanding of solidity to create a PoC based on my understanding of the project. It is not to be considered the final product.
 
 **Project Title:** DePIN Index Token Smart Contract  
 **Version:** 1.0  
